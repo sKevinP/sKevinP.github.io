@@ -1,0 +1,30 @@
+.button{
+    background-color: red;
+    text-align: center;
+    padding: 10px 20px;
+}
+.heading{
+    &--main{
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+    &--sub{
+        font-size: 25px;
+        margin-bottom: 5px;
+    }
+}
+
+.btn{
+    &--main{
+        border-radius: 30px;
+        background: #f4f4f4;
+        box-shadow:  16px 16px 32px #c1c1c1,
+        -16px -16px 32px #ffffff;
+        &:hover{
+            border-radius: 30px;
+            background: #f4f4f4;
+            box-shadow: inset 16px 16px 32px #c1c1c1,
+            inset -16px -16px 32px #ffffff;
+        }
+    }
+}

@@ -1,0 +1,64 @@
+.nav-bar{
+    &__links{
+        flex: 1;
+        text-align: right;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        margin: auto;
+        ul{
+            li{
+                display: inline-block;
+                list-style: none;
+                margin: 0 20px;
+                a{
+                    color: #04143A;
+                    text-decoration: none;
+                    &:hover{
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+.introduction{
+    margin: 60px auto;
+    color: #04143A;
+    &__name{
+        font-size: 70px;
+        font-weight: 300;
+        display: inline-block;
+        .color{
+            font-weight: 600;
+        }
+    }
+    &__title{
+        
+    }
+    &__overview{
+        margin-bottom: 40px;
+        font-size: 44px;
+        font-weight: 300;
+    }
+    &__email{
+        display: block;
+        color: #a1aabf;
+        font-size: 24px;
+        font-weight: 300;
+    }
+    &__info{
+        margin-bottom: 40px;
+        color: #81899C;
+        text-transform: uppercase;
+        
+    }
+}
+
+.experience{
+    &__heading{
+        font-size: 50px;
+    }
+}

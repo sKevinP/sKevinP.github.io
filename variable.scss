@@ -1,0 +1,30 @@
+/*Reset Style*/
+html, body, div, span, h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+body{
+    background-color: #f4f4f4;
+    font-family: "Nunito Sans",sans-serif;
+}
+a{
+    text-decoration: none;
+    text-transform: none;
+    color: #4A90E2;
+}
+.wrapper{
+    width: 1100px;
+    margin: auto;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    &--nojustify{
+        justify-content: flex-start;
+    }
+}
+
