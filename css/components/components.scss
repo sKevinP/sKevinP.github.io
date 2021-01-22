@@ -1,0 +1,74 @@
+.button{
+    background-color: red;
+    text-align: center;
+    padding: 10px 20px;
+}
+.heading{
+    &--main{
+        font-size: 50px;
+        margin-bottom: 20px;
+        color: #04143A;
+    }
+    &--sub{
+        font-size: 25px;
+        margin-bottom: 5px;
+    }
+}
+
+.btn{
+    &--main{
+        color: #04143A;
+        border-radius: 8px;
+        background: #f5f5fa;
+        box-shadow:  3px 3px 6px #919196, -3px -3px 6px #ffffff;
+        &:hover{
+            border: 0;
+            border-radius: 8px;
+            background: #f5f5fa;
+            box-shadow: inset 3px 3px 6px #919196,
+            inset -3px -3px 6px #ffffff;
+        }
+        &--l{
+            padding-top: 8px;
+            padding-bottom: 10px;
+            padding-left: 25px;
+            padding-right: 25px;
+        }
+    }
+    &--baloon{
+        color: #04143A;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        background: #f5f5fa;
+        box-shadow:  5px 5px 5px #9f9fa3,
+        -5px -5px 5px #ffffff;
+        border: 0;
+        &:hover{
+            border-radius: 50%;
+            background: #f5f5fa;
+            box-shadow: inset 5px 5px 5px #9f9fa3,
+            inset -5px -5px 5px #ffffff;
+        }
+    }
+}
+
+.btn--social{
+    &:first-child{
+        margin-right: 10px;
+    }
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #f5f5fa;
+    box-shadow:  5px 5px 5px #9f9fa3,
+    -5px -5px 5px #ffffff;
+    border: 0;
+    &:hover{
+        border-radius: 50%;
+        background: #f5f5fa;
+        box-shadow: inset 5px 5px 5px #9f9fa3,
+        inset -5px -5px 5px #ffffff;
+    }
+}

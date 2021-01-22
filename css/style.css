@@ -1,0 +1,117 @@
+.nav-bar__links {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-align: right;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  margin: auto;
+}
+
+.nav-bar__links ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 20px;
+}
+
+.nav-bar__links ul li a {
+  color: #04143A;
+  text-decoration: none;
+}
+
+.introduction {
+  margin: 60px auto;
+  color: #04143A;
+}
+
+.introduction__name {
+  font-size: 70px;
+  font-weight: 300;
+  display: inline-block;
+}
+
+.introduction__name .color {
+  font-weight: 600;
+}
+
+.introduction__overview {
+  margin-bottom: 40px;
+  font-size: 44px;
+  font-weight: 300;
+}
+
+.introduction__email {
+  display: block;
+  color: #a1aabf;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.introduction__info {
+  margin-bottom: 40px;
+  color: #81899C;
+  text-transform: uppercase;
+}
+
+.introduction__social {
+  margin-bottom: 40px;
+}
+
+.introduction__social i {
+  color: #04143A;
+  font-size: 26px;
+}
+
+.introduction__resume i {
+  padding-right: 10px;
+}
+
+.experience__heading {
+  font-size: 50px;
+}
+
+.experience__card--container {
+  width: 250px;
+  height: auto;
+  margin-bottom: 40px;
+  border-radius: 25px;
+  background: #f5f5fa;
+  -webkit-box-shadow: 20px 20px 30px #d0d0d5, -20px -20px 30px #ffffff;
+          box-shadow: 20px 20px 30px #d0d0d5, -20px -20px 30px #ffffff;
+}
+
+.experience__card--content {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
+
+.experience__card--img {
+  height: 140px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.experience__card--project {
+  text-align: center;
+}
+
+.experience__card--desc {
+  margin: 10px 0;
+}
+
+.experience__card--skills {
+  text-align: center;
+}
+
+.experience__card--skills .button--skills {
+  margin: auto;
+}
+
+.experience__card--skill {
+  margin-bottom: 10px;
+}
+/*# sourceMappingURL=style.css.map */

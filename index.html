@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel ="stylesheet" type="text/css" href="style.css"/>
-    <link rel ="stylesheet" type="text/css" href="variable.css"/>
-    <link rel ="stylesheet" type="text/css" href="components.css"/>
+    <link rel ="stylesheet" type="text/css" href="/css/style.css"/>
+    <link rel ="stylesheet" type="text/css" href="/css/variable.css"/>
+    <link rel ="stylesheet" type="text/css" href="/css/components/components.css"/>
     <link href='https://fonts.googleapis.com/css?family=Nunito Sans' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/7fdc7871e4.js" crossorigin="anonymous"></script>
     <title>Overview - Kevin Pepito</title>
 </head>
 <body>
@@ -14,10 +15,11 @@
     <section class="nav-bar">
         <nav class="wrapper">
             <div class="nav-bar__links">
-                <ul>
-                    <li><a class="btn btn--main" href="#home">About</a></li>
-                    <li><a href="#news">News</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                <ul style="margin-top: 30px; margin-bottom: 30px;">
+                    <li><a class="btn btn--main btn--main--l" href="#home">About</a></li>
+                    <li><a class="btn btn--main btn--main--l" href="#news">Experience</a></li>
+                    <li><a class="btn btn--main btn--main--l" href="#contact">Education</a></li>
+                    <li><a class="btn btn--main btn--main--l" href="#skills">Skills</a></li>
                 </ul>
             </div>
         </nav>
@@ -33,15 +35,15 @@
             </p>
             <div class="introduction__social">
                 <a href="https://github.com/sKevinP" target="_blank">
-                    <i class="fab fa-github"></i>
+                    <button class="btn--social"><i class="fab fa-github"></i></button>
                 </a>
-                <a href="https://facebook.com/ksadlyfood" target="_blank">
-                    <i class="fab fa-facebook"></i>
+                <a href="https://www.linkedin.com/in/kevin-pepito-269836204/" target="_blank">
+                    <button class="btn--social"><i class="fab fa-linkedin-in"></i></button>
                 </a>
             </div>
             <div class="introduction__resume">
-                <a class="button" href = "">
-                    <i></i>Download Resume
+                <a class="btn btn--main btn--main--l" href = "">
+                    <i class="fas fa-download"></i>Download Resume
                 </a>
             </div>
         </div>
@@ -60,14 +62,20 @@
                         <li>Adobe XD, Photoshop</li>
                     </ul>
                     <p>Projects:</p>
-                    <ul>
-                        <li>
-                            <a href="http://hipe.asia" target="_blank">hipe.asia</a>
-                        </li>
-                        <li>
-                            <a href="http://en.hipe.asia" target="_blank">hipe.solutions</a>
-                        </li>
-                    </ul>
+                    <div class="experience__card">
+                        <div class="experience__card--container">
+                            <img class="experience__card--img" src="/img/bpoc.PNG" alt="Avatar" style="width:100%">
+                            <div class="experience__card--content">
+                                <a href="http://bpoc.co.jp/" target="_blank"><h4 class="experience__card--project"><b>BPOC</b></h4></a>
+                                <p class="experience__card--desc">Manage content and help develop the website</p>
+                                <div class="experience__card--skills">
+                                    <p class="experience__card--skill">Skills Used</p>
+                                    <button class="btn btn--baloon button--skills"><i class="fas fa-eye"></i></button>
+                                    <button class="btn btn--baloon button--skills"><i class="fas fa-paint-brush"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="experience__date">
                     <p class="experience__year">October 2019 - Present</p>
@@ -80,7 +88,7 @@
                     <ul>
                         <li>Laravel, Laragon, SaSS, CSS, HTML, GIT, Yarn</li>
                     </ul>
-                    <p>projects:</p>
+                    <p>Projects:</p>
                     <ul>
                         <li>
                             <a href="http://plusmu-home.jp/" target="_blank">plusmu-home.jp</a>
@@ -95,39 +103,23 @@
                             <a href="http://firstwith.jp" target="_blank">firstwith.jp</a>
                         </li>
                         <li>
-                            <a href="http://harmony-fudousan.jp" target="_blank">harmony-fudousan.jp</a>
+                            <a href="http://countrygarden-f.jp" target="_blank">countrygarden-f.jp</a>
                         </li>
                         <li>
-                            <a href="http://daiken-rs-estate.jp" target="_blank">daiken-rs-estate.jp</a>
+                            <a href="http://itukiya-fudousan.com" target="_blank">itukiya-fudousan.com</a>
                         </li>
                         <li>
-                            <a href="http://withbe.jp" target="_blank">withbe.jp</a>
+                            <a href="http://life-fudousan.net" target="_blank">life-fudousan.net</a>
                         </li>
                     </ul>
-                </div>
-            </div>
-            <div class="flex">
-                <div class="experience__content">
-                    <h3 class="experience__sub heading--sub">ProBuild</h3>
-                    <p class="experience__title">Thesis</p>
-                    <p class="experience__desc">Create new website and maintaining company website</p>
-                    <ul>
-                        <li>Wordpress (ACF, Elementor, and Ninja Form)</li>
-                        <li>Editing Photo (Adobe Photoshop, Adobe Lightroom, and Adobe Illustrator)</li>
-                    </ul>
-                </div>
-                <div class="experience__date">
-                    <p class="experience__year">October 2019 - Present</p>
                 </div>
             </div>
             <div class="flex">
                 <div class="experience__content">
                     <h3 class="experience__sub heading--sub">Dreamscape</h3>
                     <p class="experience__title">On-The Job Training</p>
-                    <p class="experience__desc">Create new website and maintaining company website</p>
                     <ul>
-                        <li>Wordpress (ACF, Elementor, and Ninja Form)</li>
-                        <li>Editing Photo (Adobe Photoshop, Adobe Lightroom, and Adobe Illustrator)</li>
+                        <li>Content Management System</li>
                     </ul>
                 </div>
                 <div class="experience__date">
@@ -138,14 +130,14 @@
                 <div class="experience__content">
                     <h3 class="experience__sub heading--sub">SunStar</h3>
                     <p class="experience__title">On-The Job Training</p>
-                    <p class="experience__desc">Create new website and maintaining company website</p>
                     <ul>
-                        <li>Wordpress (ACF, Elementor, and Ninja Form)</li>
-                        <li>Editing Photo (Adobe Photoshop, Adobe Lightroom, and Adobe Illustrator)</li>
+                        <li>Technical Support for hardware and software</li>
+                        <li>Data Specialist</li>
+                        <li>Network Administrator</li>
                     </ul>
                 </div>
                 <div class="experience__date">
-                    <p class="experience__year">October 2019 - Present</p>
+                    <p class="experience__year">June 2019 - August 2019</p>
                 </div>
             </div>
         </div>
@@ -160,16 +152,16 @@
                     <p class = "education__position">Bachelor of Science in Information Technology</p>
                 </div>
                 <div class="education__date">
-                    <p class="education__year">October 2019 - Present</p>
+                    <p class="education__year">2014 - October 2019</p>
                 </div>
             </div>
             <div class="flex">
                 <div class="education__school">
                     <h3 class = "education__college heading--sub">La Consolacion College Lilo-an, Cebu</h3>
-                    <p class = "education__position">High school</p>
+                    <p class = "education__position">High School</p>
                 </div>
                 <div class="education__date">
-                    <p class="education__year">October 2019 - Present</p>
+                    <p class="education__year">2010 - 2014</p>
                 </div>
             </div>
         </div>
