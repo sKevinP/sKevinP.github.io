@@ -47,6 +47,7 @@
   color: #a1aabf;
   font-size: 24px;
   font-weight: 300;
+  width: 27%;
 }
 
 .introduction__info {
@@ -72,46 +73,17 @@
   font-size: 50px;
 }
 
-.experience__card--container {
-  width: 250px;
-  height: auto;
-  margin-bottom: 40px;
-  border-radius: 25px;
-  background: #f5f5fa;
-  -webkit-box-shadow: 20px 20px 30px #d0d0d5, -20px -20px 30px #ffffff;
-          box-shadow: 20px 20px 30px #d0d0d5, -20px -20px 30px #ffffff;
+.experience__sub .other {
+  font-size: 18px;
 }
 
-.experience__card--content {
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 40px;
-  padding-top: 20px;
+.experience__bukkenoh {
+  width: 100%;
 }
 
-.experience__card--img {
-  height: 140px;
-  border-top-left-radius: 25px;
-  border-top-right-radius: 25px;
-}
-
-.experience__card--project {
-  text-align: center;
-}
-
-.experience__card--desc {
-  margin: 10px 0;
-}
-
-.experience__card--skills {
-  text-align: center;
-}
-
-.experience__card--skills .button--skills {
-  margin: auto;
-}
-
-.experience__card--skill {
-  margin-bottom: 10px;
+.experience__flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 /*# sourceMappingURL=style.css.map */

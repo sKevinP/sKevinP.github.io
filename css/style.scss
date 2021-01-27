@@ -48,6 +48,7 @@
         color: #a1aabf;
         font-size: 24px;
         font-weight: 300;
+        width: 27%;
     }
     &__info{
         margin-bottom: 40px;
@@ -73,41 +74,17 @@
     &__heading{
         font-size: 50px;
     }
-    &__card{
-        &--container{
-            width: 250px;
-            height: auto;
-            margin-bottom: 40px;
-            border-radius: 25px;
-            background: #f5f5fa;
-            box-shadow:  20px 20px 30px #d0d0d5,
-             -20px -20px 30px #ffffff;
+    &__sub{
+        .other{
+            font-size: 18px;
         }
-        &--content{
-            padding-left: 20px;
-            padding-right: 20px;
-            padding-bottom: 40px;
-            padding-top: 20px;
-        }
-        &--img{
-            height: 140px;
-            border-top-left-radius: 25px;
-            border-top-right-radius: 25px;
-        }
-        &--project{
-            text-align: center;
-        }
-        &--desc{
-            margin: 10px 0;
-        }
-        &--skills{
-            text-align: center;
-            .button--skills{
-                margin: auto;
-            }
-        }
-        &--skill{
-            margin-bottom: 10px;
-        }
+    }
+    &__content{
+    }
+    &__bukkenoh{
+        width: 100%;
+    }
+    &__flex{
+        display: flex;
     }
 }

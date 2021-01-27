@@ -72,3 +72,47 @@
         inset -5px -5px 5px #ffffff;
     }
 }
+
+.card01{
+    &__container{
+        width: 250px;
+        height: auto;
+        margin-bottom: 40px;
+        border-radius: 25px;
+        background: #f5f5fa;
+        box-shadow:  10px 10px 15px #d0d0d5,
+        -10px -10px 15px #ffffff;
+    }
+    &__content{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 40px;
+        padding-top: 20px;
+    }
+    &__img{
+        height: 140px;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+    }
+    &__project{
+        text-align: center;
+        font-size: 20px;
+        color: #04143A;
+    }
+    &__desc{
+        margin: 10px 0;
+    }
+    &__skills{
+        text-align: center;
+        .button--skills{
+            margin: auto;
+        }
+    }
+    &__skill{
+        margin-bottom: 10px;
+    }
+    &__date{
+        text-align: center;
+        font-size: 12px;
+    }
+}
