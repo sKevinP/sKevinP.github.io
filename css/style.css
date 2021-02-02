@@ -64,7 +64,7 @@
 }
 
 .introduction {
-  margin: 60px auto;
+  margin: 0px auto 60px;
   color: #04143A;
 }
 
@@ -111,6 +111,11 @@
   padding-right: 10px;
 }
 
+.experience__container {
+  margin-top: -85px !important;
+  padding-top: 85px;
+}
+
 .experience__heading {
   font-size: 50px;
 }
@@ -127,5 +132,15 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.education__container {
+  margin-top: -85px !important;
+  padding-top: 85px;
+}
+
+.skills__container {
+  margin-top: -85px !important;
+  padding-top: 85px;
 }
 /*# sourceMappingURL=style.css.map */

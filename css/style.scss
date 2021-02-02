@@ -51,7 +51,7 @@
     }
 
 .introduction{
-    margin: 60px auto;
+    margin: 0px auto 60px;
     color: #04143A;
     &__name{
         font-size: 70px;
@@ -97,6 +97,10 @@
 }
 
 .experience{
+    &__container{
+        margin-top: -85px !important;
+        padding-top: 85px;
+    }
     &__heading{
         font-size: 50px;
     }
@@ -112,5 +116,19 @@
     }
     &__flex{
         display: flex;
+    }
+}
+
+.education{
+    &__container{
+        margin-top: -85px !important;
+        padding-top: 85px;
+    }
+}
+
+.skills{
+    &__container{
+        margin-top: -85px !important;
+        padding-top: 85px;
     }
 }
