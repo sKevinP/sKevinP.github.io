@@ -1,4 +1,5 @@
 .nav-bar{
+    background-color: #f5f5fa;
     &__links{
         flex: 1;
         text-align: right;
@@ -23,6 +24,31 @@
         }
     }
 }
+
+.nav-bar {
+    width: 100%;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: position 10s;
+    -ms-transition: position 10s;
+    -o-transition: position 10s;
+    transition: all 0.5s ease;
+    }
+    .fixed {
+        -webkit-box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.5); 
+        box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.5);
+        position: fixed;
+        top: 0;
+        left: 0;
+        animation: smoothScroll 1s forwards;
+    }
+    @keyframes smoothScroll {
+        0% {
+            transform: translateY(-40px);
+        }
+        100% {
+            transform: translateY(0px);
+        }
+    }
 
 .introduction{
     margin: 60px auto;

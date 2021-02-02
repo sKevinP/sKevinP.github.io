@@ -109,10 +109,12 @@
 
 .card01__desc {
   margin: 10px 0;
+  color: #04143A;
 }
 
 .card01__skills {
   text-align: center;
+  color: #04143A;
 }
 
 .card01__skills .button--skills {

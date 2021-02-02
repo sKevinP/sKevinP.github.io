@@ -1,3 +1,7 @@
+.nav-bar {
+  background-color: #f5f5fa;
+}
+
 .nav-bar__links {
   -webkit-box-flex: 1;
       -ms-flex: 1;
@@ -19,6 +23,44 @@
 .nav-bar__links ul li a {
   color: #04143A;
   text-decoration: none;
+}
+
+.nav-bar {
+  width: 100%;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.fixed {
+  -webkit-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  -webkit-animation: smoothScroll 1s forwards;
+          animation: smoothScroll 1s forwards;
+}
+
+@-webkit-keyframes smoothScroll {
+  0% {
+    -webkit-transform: translateY(-40px);
+            transform: translateY(-40px);
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+
+@keyframes smoothScroll {
+  0% {
+    -webkit-transform: translateY(-40px);
+            transform: translateY(-40px);
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
 }
 
 .introduction {
